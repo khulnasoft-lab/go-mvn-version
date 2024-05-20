@@ -17,6 +17,5 @@ jobs:
         uses: golangci/golangci-lint-action@v2
         with:
           version: v1.57.2
-          args: --deadline=30m
       - name: Run unit tests
         run: go test ./...
